@@ -1,0 +1,12 @@
+120 Binh 7.5
+121 An 7.5
+122 Khoa 8.5
+123 Thanh 9.5
+124 Nguyen 5.5
+125 Mai 6.7
+126 Hung 7.3
+127 Viet 5.9
+128 BiNH 8.0
+129 Phong 6.7
+130 Thanh 5.5
+131 Trung 6.7
