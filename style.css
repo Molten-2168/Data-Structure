@@ -1,0 +1,116 @@
+/* Custom CSS for Data Structures & Algorithms Guide */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #2D3748;
+    background-color: #F7FAFC;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #1A202C;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    border-bottom: 2px solid #3182CE;
+    padding-bottom: 0.3em;
+    background: linear-gradient(135deg, #1A365D 0%, #2B6CB0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 0.2em;
+    color: #2B6CB0;
+}
+
+.quarto-title {
+    background: linear-gradient(135deg, #1A365D 0%, #2B6CB0 100%);
+    color: white !important;
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.quarto-title h1 {
+    -webkit-text-fill-color: white !important;
+    border-bottom: none;
+    margin-top: 0;
+}
+
+.quarto-title .subtitle {
+    color: #E2E8F0 !important;
+    font-weight: 400;
+}
+
+code {
+    background-color: #EDF2F7;
+    color: #E53E3E;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
+pre code {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+}
+
+.callout {
+    border-left: 5px solid #3182CE;
+    background-color: #EBF8FF;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.callout-note { border-left-color: #3182CE; background-color: #EBF8FF; }
+.callout-tip { border-left-color: #38A169; background-color: #F0FFF4; }
+.callout-warning { border-left-color: #DD6B20; background-color: #FFFAF0; }
+.callout-important { border-left-color: #E53E3E; background-color: #FFF5F5; }
+
+table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #2B6CB0;
+    color: white;
+    font-weight: 600;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #E2E8F0;
+    background-color: white;
+}
+
+tr:hover td {
+    background-color: #F7FAFC;
+}
+
+.math {
+    color: #2C5282;
+}
+
+/* Custom visual polish for code blocks */
+.sourceCode {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
